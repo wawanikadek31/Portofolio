@@ -1,0 +1,45 @@
+.banner {
+  height: 80vh;
+  background: center, url("../img/dark-wallpapers.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+svg {
+  height: 10vh;
+}
+.crop-img {
+  object-fit: cover;
+  background-position: absolute;
+}
+.hovered {
+  transition: 0.4s;
+}
+.hovered:hover {
+  transform: scale(1.1);
+}
+.tim-img {
+  width: 250px;
+  border: 3px solid black;
+}
+.kontak {
+  background: url(../img/1867010.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#layanan,
+#portofolio,
+#staff,
+#contact {
+  padding: 8rem 7% 1rem;
+}
+#layanan h2,
+#portofolio h2,
+#staff,
+#contact h2 {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 3rem;
+  color: black;
+}
